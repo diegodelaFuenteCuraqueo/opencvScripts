@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Load an image
-image = cv2.imread('dogs.jpeg')
+image = cv2.imread('images/dogs.jpeg')
 
 # Load the pre-trained Caffe model for face detection
 prototxt_path = 'facedetection/deploy.prototxt'

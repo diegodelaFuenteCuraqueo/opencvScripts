@@ -26,7 +26,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Rotate an image.')
     parser.add_argument('image_path', type=str, default='dogs.jpeg', nargs='?',help='Path to the image')
     parser.add_argument('--angle', type=float, default=45, help='Rotation angle in degrees (default: 45)')
-    
+
     args = parser.parse_args()
     rotate_image(args.image_path, args.angle)
 

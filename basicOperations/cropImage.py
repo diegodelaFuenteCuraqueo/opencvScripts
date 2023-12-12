@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('dogs.jpeg')
+image = cv2.imread('images/dogs.jpeg')
 
 # Define the region to crop (top-left and bottom-right coordinates)
 x1, y1, x2, y2 = 100, 50, 300, 250

@@ -3,7 +3,7 @@
 import cv2
 
 # Load an image
-image = cv2.imread('people.jpg')
+image = cv2.imread('images/people.jpg')
 
 # Convert the image to grayscale (required for face detection)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

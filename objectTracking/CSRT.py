@@ -1,7 +1,7 @@
 import cv2
 
 # Load a video file
-input_source = 'chickens.mp4'  # Replace with your file path
+input_source = 'videos/traffic.mp4'  # Replace with your file path
 
 # Create a VideoCapture object for video input
 cap = cv2.VideoCapture(input_source)

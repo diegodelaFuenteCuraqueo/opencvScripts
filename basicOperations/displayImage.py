@@ -1,7 +1,7 @@
 import cv2
 
 # Load an image
-image = cv2.imread('dogs.jpeg')
+image = cv2.imread('images/dogs.jpeg')
 
 # Display the image
 cv2.imshow('Loaded Image', image)

@@ -5,7 +5,7 @@ import cv2
 import dlib
 
 # Load an image
-image = cv2.imread('people.jpg')
+image = cv2.imread('images/people.jpg')
 
 # Initialize the DLIB face detector
 detector = dlib.get_frontal_face_detector()
